@@ -5,6 +5,9 @@ sed
 sort
 
 install these if you don't have them already.
+
+sudo apt install _____
+
 ========================================================
 
 Usage
@@ -13,7 +16,7 @@ OR (if added to path)
 crtlookup <domain>
 
 
-After cloining repo, ensure you are in the correct directory (if you're reading this, you likely are)
+After cloning repo, ensure you are in the correct directory (if you're reading this, you likely are)
 Make crtlookup executable with: chmod +x crtlookup
 
 Optional: add to path to make crtlookup a usable command for entire shell
