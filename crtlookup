@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Check if domain was provided
+if [ -z "$1" ]; then
+	echo "Usage: crtlookup <domain>"
+	exit 1
+fi
+
+DOMAIN="$1"
+
+curl -s "https://crt.sh/?q=%25.${DOMAIN}&output=json" \
+| jq -r '.[].name_value' \
+| sed 's/\*\.//' \
+| sort -u
+
