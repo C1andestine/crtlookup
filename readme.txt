@@ -1,3 +1,12 @@
+Required:
+curl
+jq
+sed
+sort
+
+install these if you don't have them already.
+========================================================
+
 Usage
 (From directory) ./crtlookup <domain>
 OR (if added to path)
@@ -9,9 +18,6 @@ Make crtlookup executable with: chmod +x crtlookup
 
 Optional: add to path to make crtlookup a usable command for entire shell
 sudo ln /your/entire/path/to/crtlookup /usr/local/bin/
-
-OR
-
 
 
 .........use for good vs evil
