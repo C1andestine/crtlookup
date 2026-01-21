@@ -10,12 +10,12 @@ sudo apt install _____
 
 ========================================================
 
-Usage
+Usage:
 (From directory) ./crtlookup <domain>
 OR (if added to path)
 crtlookup <domain>
 
-
+Config:
 After cloning repo, ensure you are in the correct directory (if you're reading this, you likely are)
 Make crtlookup executable with: chmod +x crtlookup
 
